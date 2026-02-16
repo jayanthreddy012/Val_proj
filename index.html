@@ -373,20 +373,21 @@
             
             // Detection range
             if (distance < 200) {
-                const padding = btnRect.width / 2 + 30;
+                // Increase padding significantly to keep button fully visible
+                const padding = 100; // Fixed larger padding
                 const maxX = window.innerWidth - padding;
                 const maxY = window.innerHeight - padding;
                 
                 // Move away from cursor
-                const moveDistance = 200;
+                const moveDistance = 180;
                 let newX = btnCenterX + (deltaX / distance) * moveDistance;
                 let newY = btnCenterY + (deltaY / distance) * moveDistance;
                 
                 // Add some randomness
-                newX += (Math.random() - 0.5) * 150;
-                newY += (Math.random() - 0.5) * 150;
+                newX += (Math.random() - 0.5) * 100;
+                newY += (Math.random() - 0.5) * 100;
                 
-                // Keep within bounds with padding
+                // Keep within bounds with strict limits
                 newX = Math.max(padding, Math.min(newX, maxX));
                 newY = Math.max(padding, Math.min(newY, maxY));
                 
