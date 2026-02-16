@@ -1,0 +1,37 @@
+📸 HOW TO ADD YOUR PHOTO TO THE WEBPAGE
+==========================================
+
+Your HEIC image needs to be converted to JPG format for web browsers.
+
+OPTION 1 - Convert Online (Easiest):
+-------------------------------------
+1. Go to: https://heictojpg.com or https://convertio.co/heic-jpg/
+2. Upload your IMG_2692.heic file
+3. Download the converted JPG file
+4. Rename it to: couple_photo.jpg
+5. Upload it along with valentines_dinner.html and celebration_dance.gif
+
+OPTION 2 - Convert on iPhone/Mac:
+----------------------------------
+iPhone:
+1. Open the photo in Photos app
+2. Tap Share → Save to Files
+3. It will automatically convert to JPG
+4. Rename to: couple_photo.jpg
+
+Mac:
+1. Open the image in Preview
+2. File → Export
+3. Format: JPEG
+4. Save as: couple_photo.jpg
+
+OPTION 3 - Upload Files Together:
+----------------------------------
+When hosting, you need these 3 files in the same folder:
+✓ valentines_dinner.html (rename to index.html when uploading)
+✓ celebration_dance.gif
+✓ couple_photo.jpg (your converted photo)
+
+The webpage is already set up to display couple_photo.jpg at the top!
+
+Need help? Let me know!
